@@ -65,7 +65,7 @@ export default function PromotionsBanner() {
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-primary">${promo.price.toFixed(2)}</span>
                   <a
-                    href="https://wa.me/?text=Hola%20La%20Casa%20del%20Sabor%2C%20me%20gustar%C3%ADa%20probar%20este%20especial"
+                  
                     className="inline-flex items-center gap-1 bg-primary text-primary-foreground px-3 py-2 rounded text-sm font-semibold hover:bg-accent transition-colors group-hover:gap-2"
                   >
                     Pedir

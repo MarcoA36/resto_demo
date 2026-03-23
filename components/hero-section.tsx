@@ -1,47 +1,3 @@
-// import { Button } from "@/components/ui/button"
-// import { MessageCircle } from "lucide-react"
-// const images = [
-//   "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
-//   "https://images.unsplash.com/photo-1498654896293-37aacf113fd9",
-//   "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-// ]
-
-// export default function HeroSection() {
-//   return (
-//     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-//       {/* Background image */}
-//       <div
-//         className="absolute inset-0 bg-cover bg-center"
-//         style={{
-//           backgroundImage: "url(/placeholder.svg?height=1080&width=1920&query=delicious+food+plate+restaurant)",
-//         }}
-//       >
-//         <div className="absolute inset-0 bg-black/40" />
-//       </div>
-
-//       {/* Content */}
-//       <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto">
-//         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">La Casa del Sabor</h1>
-//         <p className="text-xl md:text-2xl mb-8 text-balance font-light">
-//           Comida casera hecha al momento con ingredientes frescos y recetas tradicionales
-//         </p>
-//         <a
-//           href="https://wa.me/5491234567890?text=Hola!%20Me%20gustaría%20hacer%20una%20reserva%20o%20pedido"
-//           className="inline-block"
-//         >
-//           <Button
-//             size="lg"
-//             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 md:px-12 py-6 md:py-8 text-lg md:text-xl font-semibold rounded-lg"
-//           >
-//             <MessageCircle className="w-6 h-6 mr-2" />
-//             Reservar por WhatsApp
-//           </Button>
-//         </a>
-//       </div>
-//     </section>
-//   )
-// }
-
 "use client"
 
 import { useEffect, useState } from "react"
@@ -66,7 +22,7 @@ const images = [
   }, [])
 
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[80vh]  flex items-center justify-center overflow-hidden">
 
       {/* Slider */}
       <div className="absolute inset-0">

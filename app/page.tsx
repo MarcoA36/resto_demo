@@ -7,6 +7,7 @@ import WhyChooseUs from "@/components/why-choose-us"
 import LocationHours from "@/components/location-hours"
 import CallToAction from "@/components/call-to-action"
 import Footer from "@/components/footer"
+import DemoBadge from "@/components/DemoBadge"
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <LocationHours />
       </div>
       <CallToAction />
+ 
       <Footer />
     </main>
   )

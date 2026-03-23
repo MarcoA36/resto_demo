@@ -8,7 +8,7 @@ export default function OfferBanner() {
           <p className="text-2xl md:text-3xl font-bold">🔥 Promo del Día</p>
           <p className="text-lg md:text-xl mt-2 font-light">20% OFF en pastas de lunes a jueves</p>
         </div>
-        <a href="https://wa.me/5491234567890?text=Me%20interesa%20la%20promo%20de%20pastas">
+        <a href="#">
           <Button size="lg" variant="secondary" className="bg-primary hover:bg-primary/90 text-primary-foreground">
             Aprovechar Oferta
           </Button>

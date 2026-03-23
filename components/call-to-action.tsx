@@ -9,7 +9,7 @@ export default function CallToAction() {
         <p className="text-xl md:text-2xl mb-8 font-light text-balance">
           Hacé tu pedido ahora por WhatsApp o reserva tu mesa para hoy
         </p>
-        <a href="https://wa.me/5491234567890?text=Hola!%20Me%20gustaría%20hacer%20un%20pedido%20o%20una%20reserva">
+        <a >
           <Button
             size="lg"
             className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 md:px-12 py-6 md:py-8 text-lg font-semibold"
