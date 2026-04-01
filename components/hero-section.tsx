@@ -121,7 +121,7 @@ export default function HeroSection() {
   return () => clearInterval(interval)
 }, []) // 👈 SIEMPRE vacío
   return (
-    <section className="relative w-full h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[92vh] flex items-center justify-center overflow-hidden">
       
       {/* Slider */}
       <div className="absolute inset-0">
